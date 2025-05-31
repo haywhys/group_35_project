@@ -1,0 +1,36 @@
+
+
+/* CSS STYLE CODE FOR ALL PPAGES TO ENSURE UNIFORMITY */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  max-width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-control {
+  font-size: 0.95rem;
+  padding: 0.45rem 0.6rem;
+}
+
+.form-label {
+  font-size: 0.9rem;
+}
+
+/* Default for small screens: center the content */
+.align-right {
+  justify-content: center;
+}
+
+/* Tablet and above: align to end */
+@media (min-width: 768px) {
+  .align-right {
+    justify-content: end;
+  }
+}
